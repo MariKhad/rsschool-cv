@@ -40,25 +40,6 @@ JavaScript Developer with 3+ years of experience in backend and fullstack develo
 - Worked with REST API and WebSocket
 - Collaborated in a team using Git and code review
 
-### Search Engine Optimization Specialist | Various SEO Projects
-*May 2017 – February 2024 (6 years 10 months)*
-- Optimized content and landing pages for search engines
-- Keyword research and expansion
-- Content recommendations for organic SEO success
-- Worked with CMS platforms: Joomla, WordPress, Modx, Bitrix
-
-### Freelance Translator
-*March 2014 – May 2017 (3 years 3 months)*
-- Provided translation services for technology and engineering clients
-
-### Surveyor | Geodetic Companies
-*November 2009 – March 2014 (4 years 5 months)*
-- Surveyor in construction and archaeology
-- Created digital landscape maps using GPS/GLONASS data
-- Experience with GIS (Google Maps)
-- Built GIS for information portal using OpenLayers.js
-- Graduate work: C++ application with Qt 4.5
-- Self-learned MySQL, SQLite, and HTML during this period
 
 ## Education
 
