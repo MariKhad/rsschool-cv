@@ -9,7 +9,8 @@
 JavaScript Developer with 3+ years of experience in backend and fullstack development. Passionate about web development, fast learner, and high-energy team player. Skilled in building REST APIs, microservices, and database architecture. Capable of working with both JavaScript and TypeScript ecosystems.
 
 ## Skills
-- **Languages:** JavaScript, TypeScript, HTML, CSS (SCSS)
+- **Programming Languages:** JavaScript, TypeScript
+- **Frontend:** React, Redux, RTK, Vue.js, HTML5, CSS3 (SCSS), GSAP, Swiper
 - **Backend:** Node.js, Express, NestJS, REST API, WebSocket
 - **Databases:** PostgreSQL, MySQL, MongoDB, SQLite
 - **ORM/ODM:** TypeORM, Mongoose, Sequelize
@@ -72,4 +73,5 @@ JavaScript Developer with 3+ years of experience in backend and fullstack develo
 ## Languages
 - **Russian:** Native
 - **English:** Professional working proficiency
-- **Spanish:** Professional working proficiency
+- **Spanish:** B1 level
+- **German:** Basic level
