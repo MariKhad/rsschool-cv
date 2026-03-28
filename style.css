@@ -1,119 +1,82 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #1a1a1a;
+    background-color: #fafafa;
+    padding: 40px 20px;
 }
 
 div {
     max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 48px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    margin-bottom: 40px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 28px;
     flex-wrap: wrap;
-    padding: 15px 0;
-    margin: 0;
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    padding: 5px 10px;
-    transition: color 0.3s ease;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    color: #0066cc;
+    color: #d46b9e;
 }
-
-nav ul li a:active {
-    color: #004499;
-}
-
-
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 h1 {
-    margin-bottom: 10px;
-    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
 }
 
 h2 {
-    margin-bottom: 15px;
-}
-
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul, ol {
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    overflow-x: auto;
-    font-family: monospace;
-    margin: 10px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0 0;
-    margin-top: 20px;
-    border-top: 1px solid #ddd;
-}
-
-footer img {
-    width: 30px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #111;
+    margin: 28px 0 16px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #d46b9e;
     display: inline-block;
-    margin: 0;
-    vertical-align: middle;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111;
+    margin: 16px 0 8px 0;
+}
+
+p {
+    color: #444;
+    margin-bottom: 12px;
 }
