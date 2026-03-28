@@ -85,43 +85,75 @@ p {
 }
 
 .profile {
-    text-align: left;
-    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .profile img {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
-    border: 1px solid #eaeaea;
+    border: 3px solid #d46b9e;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    color: #d46b9e;
+    margin-bottom: 16px;
+    font-weight: 500;
 }
 
 .intro {
+    max-width: 600px;
+    margin: 0 auto;
     font-size: 1rem;
     color: #555;
-    margin-top: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
+}
+
+
+.contact {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .contact-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .contact-list li {
-    margin-bottom: 6px;
-    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.contact-list li a {
+.contact-list i {
     color: #d46b9e;
-    text-decoration: none;
+    font-size: 1.1rem;
+    width: 20px;
 }
 
-.contact-list li a:hover {
-    text-decoration: underline;
+.contact-list a {
+    color: #444;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.contact-list a:hover {
+    color: #d46b9e;
 }
 
 .skills-grid {
@@ -247,6 +279,33 @@ code {
 .education-item .date {
     color: #888;
     font-size: 0.85rem;
+}
+
+.languages {
+    margin-bottom: 40px;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.languages-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.language-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.language-level {
+    color: #d46b9e;
+    font-size: 0.9rem;
 }
 
 footer {
