@@ -132,23 +132,42 @@
                 </ul>
             </section>
 
-            <section id="code">
+           <section id="code" class="code">
                 <h2>Code Example</h2>
-                <p class="code-description"></p>
-                <pre><code></code></pre>
+                <p class="code-description">Example from <strong><a href="https://github.com/MariKhad/fastify-crud-api/blob/main/src/controllers/ProductController.ts">fastify-crud-api</a></strong> project — Product Controller with CRUD operations:</p>
+                <pre><code>export class ProductController {
+
+  async getAll(_request: FastifyRequest, reply: FastifyReply) {
+    const products = await productService.getAll();
+    return reply.status(200).send(products);
+  }
+
+  async getById(
+    request: FastifyRequest&lt;{ Params: { productId: string } }&gt;,
+    reply: FastifyReply
+  ) {
+    const product = await productService.getById(request.params.productId);
+    
+    if (!product) {
+      return reply.status(404).send({ message: 'Product not found' });
+    }
+    return reply.status(200).send(product);
+  }
+
+}               </code></pre>
             </section>
 
-            <section id="education">
+           <section id="education" class="education">
                 <h2>Education</h2>
                 <div class="education-item">
-                    <h3></h3>
-                    <p class="degree"></p>
-                    <p class="date"></p>
+                    <h3>Kazan Federal University</h3>
+                    <p class="degree">Translator in the field of professional communications</p>
+                    <p class="date">2014 – 2016</p>
                 </div>
                 <div class="education-item">
-                    <h3></h3>
-                    <p class="degree"></p>
-                    <p class="date"></p>
+                    <h3>Kazan Federal University</h3>
+                    <p class="degree">Specialist's Degree, Astronomy and Space Geodesy</p>
+                    <p class="date">2007 – 2012</p>
                 </div>
             </section>
 
